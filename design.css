@@ -1,0 +1,78 @@
+
+
+body {
+    /* background-color: lightskyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#survey-form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+}
+
+#name-label,#email-label,#number-label{
+    width: 100%;
+
+}
+#name,#email,#number{
+    width: 100%;
+}
+
+#name-label p,#email-label p,#number-label p{
+    padding: 10px;
+    margin: 0px;
+
+    font-size: 25px;
+    
+}
+#name-label input,#email-label input,#number-label input{
+    
+    height: 3rem;
+    padding: 5px;
+
+    border-radius: 15px;
+}
+label h3{
+    font-size: 25px;
+}
+
+#definitely-label,#maybe-label,#not-sure-label{
+    font-size: 25px;
+    
+}
+
+#dropdown{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+#front-label, #back-label{
+    display: flex;
+    padding: 1rem;
+}
+#front-label p, #back-label p {
+    font-size: 25px;
+    margin: 0;
+}
+#checkbox{
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+}
+
+
+textarea{
+    width: 75%;
+}

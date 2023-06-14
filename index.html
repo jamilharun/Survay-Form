@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 id="Title">Survey Form</h1>
+        <p id="description">Description Lorem, ipsum dolor.</p>
+    </div>
+    <form id="survey-form" action="">
+        <label for="" id="name-label"><p>Name</p><input type="text" name="" id="name" placeholder="Name" required></label>
+        <label for="" id="email-label"><p>Email</p><input type="email" name="" id="email" placeholder="Email" required></label>
+        <label for="" id="number-label"><p>Age</p><input type="number" name="" id="number" placeholder="Age" required min="10" max="99"></label>
+        
+        <!-- dropdown -->
+        <label for=""><h3>do you like this Survey Form?</h3></label>
+        <label for="" id="definitely-label"><input type="radio" name="reccmmendaion" id="" value="3" checked>Definitely</label>
+        <label for="" id="maybe-label"><input type="radio" name="reccmmendaion" id="" value="2">Maybe</label>
+        <label for="" id="not-sure-label"><input type="radio" name="reccmmendaion" id="" value="1">Not sure</label>
+        
+        <label for=""><h3>which do you prefer?</h3></label>
+        <select name="" id="dropdown">
+            <option name="whatever" value="Challenge">Challenge</option checked>
+            <option name="whatever" value="Projects">Projects</option>
+            <option name="whatever" value="Community">Community</option>
+            <option name="whatever" value="Open-Source">Open-Source</option>
+        </select>
+
+        <label for=""><h3>what are you aiming right now?</h3></label>
+        <label for="" id="front-label"><input type="checkbox" name="prefer" id="checkbox" value="Front-end projects"><p>Front-end projects</p></label>
+        <label for="" id="back-label"><input type="checkbox" name="preder" id="checkbox" value="Back-end projects"><p>Back-end projects</p></label>
+        
+        <!-- text area -->
+        <label for=""><h3>Any comments?</h3></label>
+        <textarea name="comments?" id="" cols="" rows="10"></textarea>
+        <button type="submit" id="submit">sunmit</button>
+    </form>
+</body>
+</html>
